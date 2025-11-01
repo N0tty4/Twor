@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "eadb509c1340a14f",
@@ -173,17 +172,19 @@
   },
   "active": "a9122f54ff7f7c31",
   "lastOpenFiles": [
-    "Socket_prog_c/ch3_IP_struct.md",
+    "IRC_notes/introduzione.md",
+    "IRC_notes/2_IRC_specification.md",
+    "IRC_notes/3_IRC_Concepts",
     "Socket_prog_c/ch2_socket.md",
     "IRC_python/jaraco_irc.md",
+    "Internet_Relay_Chat_Protocol/Introduction.md",
+    "Socket_prog_c/ch3_IP_struct.md",
     "Socket_prog_c",
     "Internet_Relay_Chat_Protocol/4_message_details.md",
     "IRC_python",
     "How_connect_IRC.md",
     "Internet_Relay_Chat_Protocol/3_IRC_CONCEPTS.md",
-    "italian_note/introduzione.md",
-    "Internet_Relay_Chat_Protocol/Introduction.md",
-    "italian_note",
+    "IRC_notes",
     "Internet_Relay_Chat_Protocol/2_The_IRC_Specification.md",
     "Internet_Relay_Chat_Protocol",
     "Untitle"

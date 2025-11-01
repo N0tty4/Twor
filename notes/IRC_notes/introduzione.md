@@ -33,4 +33,14 @@ Esistono due tipi di channel:
 1. channel distribuiti, i quali sono conosciuti da tutti i server che sono connessi al network. I loro nomi iniziano con `#`
 2. channel locali, i quali esistono solo sul server su cui è stato creato. I loro nomi iniziano con `&`
 Per creare un nuovo channel, o diventare parte di uno già esistente, è richiesto il JOIN nel canale.
-- se il canale non esiste, il primo membro ad entrarci salra l'operatore del canale
+- se il canale non esiste, il primo membro ad entrarci sarà l'operatore del canale.
+- Se puoi no unirti al canale dipenderà interamente dal tipo di canale, ad esempio `i+` significa invite only.
+## se i canali diventano disgiunti
+Se per un errore di internet i canali si dovessero separare, allora gli utenti saranno divisi nei canali; e quando ritornerà la connessione tra i due canali, verranno riuniti per poi essere ricongiunti dopo.
+# 1.3.1 channel operators
+Conosciuto come `chop` o `chanop` su un canale dato è considerato colui che detiene il canale; il quale ha tutti privilegi, come:
+- `KICK`
+- `MODR`
+- `INVITE`
+- `TOPIC`
+il channel operator è definito dal simbolo `@` dopo il suo nickname
